@@ -29,6 +29,10 @@
             Console.WriteLine("=====================================================");
             Console.WriteLine("Start: " + start4);
             Console.WriteLine("End: " + end4);
+            FindElementsForSum(new List<uint> { 7, 16, 33, 77, 21, 3, 4, 11 }, 101, out int start5, out int end5);
+            Console.WriteLine("=====================================================");
+            Console.WriteLine("Start: " + start5);
+            Console.WriteLine("End: " + end5);
         }
 
         static public void FindElementsForSum(List<uint> list, ulong sum, out int start, out int end)
